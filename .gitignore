@@ -1,0 +1,53 @@
+# Ignore all .log files
+*.log
+
+# Ignore the 'node_modules' directory
+node_modules/
+
+# Ignore the hospital_virtual_env contents
+hospital_virtual_env
+hospenv
+hospital_virtual_env
+projects_env
+# Ignore a specific file
+secret-config.txt
+
+# Ignore all files in the 'temp' directory
+temp/
+
+# Ignore Django settings file
+#hospitalcore/settings.py
+
+# Ignore the .gitignore file itself
+.gitignore
+
+# Local attachmensts  folder to git ignore
+hospitalcore/localDevelopmentAttachements
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database cache files
+db.sqlite3
+*.sqlite3
+
+# Ignore other temporary files
+*.log
+logging_config.py
+
+tenant/migrations/0076_alter_tenantendvisit_visit_end_time_and_more.py
+
+#Ignore settings file
+
+
+
+

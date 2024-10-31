@@ -26,7 +26,8 @@ SECRET_KEY = "django-insecure-(!w-+sun#c_b$z29a)v&mnwxj5_q)_zw*w97fu33l46n1xa&i!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+LOGIN_REDIRECT_URL = "home" 
+LOGOUT_REDIRECT_URL = "home"
 
 # Application definition
 
@@ -128,6 +129,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "static/"
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles" 
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage" 
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
